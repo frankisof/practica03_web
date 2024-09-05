@@ -1,24 +1,22 @@
-<!-- app.component.html -->
-<!-- Barra de navegación -->
-<nav class="navbar">
-    <div class="container">
-        <a routerLink="/" class="logo">GameZone</a>
-        <ul class="nav-links">
-            <li><a routerLink="/">Inicio</a></li>
-          
-        </ul>
-    </div>
-</nav>
+<body class="d-flex flex-column min-vh-100">
+    <header class="hero text-center py-5 bg-dark text-white">
+        <div class="container">
+            <h1>Bienvenido a GameZone</h1>
+            <p>Explora los últimos y mejores videojuegos en un solo lugar.</p>
+        </div>
+    </header>
 
-<!-- Contenido de la aplicación -->
-<router-outlet></router-outlet> <!-- Aquí se cargará el contenido de las rutas -->
+    <main class="flex-grow-1">
+        <router-outlet></router-outlet> 
+    </main>
 
-<!-- Pie de página -->
-<footer class="footer">
-    <div class="container">
-        <p>&copy; 2024 GameZone. Todos los derechos reservados.</p>
-        <p>Síguenos en:
-            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
-        </p>
-    </div>
-</footer>
+    <!-- Pie de página -->
+    <footer class="footer py-5 text-white">
+        <div class="container text-center">
+            <p>&copy; 2024 GameZone. Todos los derechos reservados.</p>
+            <p>Síguenos en:
+                <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+            </p>
+        </div>
+    </footer>
+</body>
