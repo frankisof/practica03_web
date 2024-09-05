@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal - Sitio de Videojuegos</title>
+</head>
+<body>
+    
+
+       
+
+    <!-- Sección de bienvenida -->
+    <header class="hero">
+        <div class="container">
+            <h1>Bienvenido a GameZone</h1>
+            <p>Explora los últimos y mejores videojuegos en un solo lugar.</p>
+        </div>
+    </header>
+
+    <!-- Sección de juegos destacados -->
+    <section class="featured-games">
+        <div class="container">
+            <h2>Juegos Destacados</h2>
+            <div class="game-grid">
+                <div class="game-card">
+                    <a routerLink="/juegos/juego1">
+                        <img src="juego1.jpg" alt="Juego 1">
+                        <h3>Juego 1</h3>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <a routerLink="/juegos/juego2">
+                        <img src="juego2.jpg" alt="Juego 2">
+                        <h3>Juego 2</h3>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <a routerLink="/juegos/juego3">
+                        <img src="juego3.jpg" alt="Juego 3">
+                        <h3>Juego 3</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de noticias recientes -->
+    <section class="news">
+        <div class="container">
+            <h2>Noticias Recientes</h2>
+            <article class="news-item">
+                <h3>Nueva actualización de Juego 1</h3>
+                <p>La última actualización trae nuevas funciones y mejoras de rendimiento.</p>
+            </article>
+            <article class="news-item">
+                <h3>Lanzamiento de Juego 2</h3>
+                <p>Juego 2 ya está disponible en todas las plataformas.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 GameZone. Todos los derechos reservados.</p>
+            <p>Síguenos en:
+                <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Aquí debe ir el router-outlet -->
+
+
+</body>
+</html>
